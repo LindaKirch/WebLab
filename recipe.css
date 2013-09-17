@@ -1,42 +1,30 @@
 html {
-    background-color: #eeeeee;
-    background-image: linear-gradient(bottom, rgb(238,238,238) 18%, rgb(153,153,153) 59%, rgb(238,238,238) 80%);
-    background-image: -o-linear-gradient(bottom, rgb(238,238,238) 18%, rgb(153,153,153) 59%, rgb(238,238,238) 80%);
-    background-image: -moz-linear-gradient(bottom, rgb(238,238,238) 18%, rgb(153,153,153) 59%, rgb(238,238,238) 80%);
-    background-image: -webkit-linear-gradient(bottom, rgb(238,238,238) 18%, rgb(153,153,153) 59%, rgb(238,238,238) 80%);
-    background-image: -ms-linear-gradient(bottom, rgb(238,238,238) 18%, rgb(153,153,153) 59%, rgb(238,238,238) 80%);
+    background-color: #99CCCC;
 }
 
 body {
-    margin: 0 auto;
-    padding: 2em;
-    max-width: 800px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 2em;
+padding: 4em;
+    font-family: "times new roman", Helvetica, Arial, serif;
     font-size: 14px;
     line-height: 1.5em;
-    color: #333333;
-    background-color: #ffffff;
-    -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    background-color: white;
+}
+h1 {
+text-decoration:underline;    
 }
 
-h1, h2, h3, h4, h5, h6 {
-    line-height: 1.3em;
+h1:before, h1:after {
+    content:'♦';
 }
-
-samp
-{
-    /* hide <samp> from the browser so we can show cool features in Edge Code */
-    display: none;
+ul {
+    list-style-type: none;
+    padding-left:0;
 }
-
-img
-{
-    background: dimgray;
-    border: 1px solid black;
-    border-radius: 2px;
-    padding: 15px 10px 10px;
-    margin: 10px 0;
-    max-width: 95%;
+.quantity {
+    width:6%;
+    display:inline-block
+}
+.quantity {
+    text-align:center
 }
